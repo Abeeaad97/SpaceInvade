@@ -1,7 +1,8 @@
 import pygame
+from pygame.sprite import Sprite
 
 
-class Alien(pygame.sprite.Sprite):
+class Alien(Sprite):
     def __init__(self, ai_settings, screen, alien_type=3):
         # creates single alien
         super().__init__()

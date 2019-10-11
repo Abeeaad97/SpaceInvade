@@ -22,13 +22,13 @@ def run_game():
     # Setup game stats and scoreboard
     stats = GameStats(ai_settings)
     sb = Scoreboard(ai_settings, screen, stats)
-    # Setup ship, bullets, beams, aliens, background stars
+    # Setup ship, bullets, beams, aliens, background
     ship = Ship(ai_settings, screen)
     bullets = pygame.sprite.Group()
     beams = pygame.sprite.Group()
     aliens = pygame.sprite.Group()
     ufo = pygame.sprite.Group()
-    stars = gf.create_stars(ai_settings, screen)
+
     gf.create_fleet(ai_settings, screen, ship, aliens)
     bunkers = pygame.sprite.Group(make_bunker(ai_settings, screen, 0),
                                   make_bunker(ai_settings, screen, 1),
@@ -48,7 +48,7 @@ def run_game():
             ship.update()
             gf.update_bullets_beams(ai_settings, screen, stats, sb, ship, aliens, beams, bullets, ufo)
             gf.update_aliens(ai_settings, screen, stats, sb, ship, aliens, beams, bullets, ufo)
-        gf.update_screen(ai_settings, screen, stats, sb, ship, aliens, beams, bullets, bunkers, stars, ufo)
+        gf.update_screen(ai_settings, screen, stats, sb, ship, aliens, beams, bullets, bunkers, ufo)
         gf.play_bgm(ai_settings, stats)
 
 

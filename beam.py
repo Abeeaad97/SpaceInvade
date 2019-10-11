@@ -1,8 +1,9 @@
 import pygame
+from pygame.sprite import Sprite
 
 
 # this file handles the beam that the alien fires, different from the beam that the ship fires
-class Beam(pygame.sprite.Sprite):
+class Beam(Sprite):
     def __init__(self, ai_settings, screen, alien):
         super().__init__()
         self.screen = screen

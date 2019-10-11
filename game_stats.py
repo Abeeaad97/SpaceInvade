@@ -7,6 +7,7 @@ import json
 class GameStats:
 
     def __init__(self, ai_settings):
+        # create stat variables
         self.ai_settings = ai_settings
         self.ships_left = 0
         self.aliens_start = None

@@ -10,7 +10,7 @@ class Button:
         self.screen = screen
         self.screen_rect = screen.get_rect()
 
-        # Dimensions and properties of the button
+        # Dimensions of the buttons
         self.button_color = (0, 255, 0)
         self.text_color = (255, 255, 255)
         self.alt_color = (0, 255, 0)
@@ -94,6 +94,7 @@ class EnemyDisplay:
 
 
 class Title:
+    # title of the game
 
     def __init__(self, bg_color, screen, text, text_size=56, text_color=(255, 255, 255)):
         self.bg_color = bg_color
@@ -113,6 +114,7 @@ class Title:
 
 
 class Subtitle:
+    # the subtitle
 
     def __init__(self, bg_color, screen, text, text_size=48, text_color=(0, 255, 0)):
         self.bg_color = bg_color
@@ -134,6 +136,7 @@ class Subtitle:
 
 
 class Intro:
+    # main class for whole intro
 
     def __init__(self, settings, game_stats, screen):
         # settings, settings, stats
@@ -164,7 +167,7 @@ class Intro:
 
 
 def level_intro(ai_settings, screen, stats):
-
+    # intro of the level
     if stats.game_active:
         level_text = Title(ai_settings.bg_color, screen, 'Level: ' + str(stats.level))
         level_text.prep_image()

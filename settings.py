@@ -9,7 +9,6 @@ class Settings:
         # screen settings
         self.screen_width = 1200
         self.screen_height = 800
-        self.stars_limit = 8
         print('Automatic screen resolution: ' + str(self.screen_width) + ' ' + str(self.screen_height))
         self.bg_color = (0, 0, 0)
 
@@ -85,7 +84,7 @@ class Settings:
         # scoring
         self.alien_points = {'1': 10, '2': 20, '3': 40}
 
-        # fleet_direction : 1 represents right, -1 represents left
+        # fleet_direction : 1 = right, -1 = left
         self.fleet_direction = 1
 
     def initialize_audio_settings(self):

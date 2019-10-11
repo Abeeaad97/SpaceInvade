@@ -10,6 +10,7 @@ class Ship(pygame.sprite.Sprite):
         # Load ship image and set rect attributes
         self.ship_image = pygame.image.load('images/ship.png')
         self.image = self.ship_image
+        # list to hold all the death images
         self.death_images = [
             pygame.image.load('images/ship_death/ship_death1.png'),
             pygame.image.load('images/ship_death/ship_death2.png'),

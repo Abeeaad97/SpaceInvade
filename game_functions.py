@@ -8,7 +8,9 @@ from beam import Beam
 from high_scores import HighScoreScreen
 from intro import Button, Intro, level_intro
 from ufo import Ufo
-from star import Star
+
+
+# from star import Star
 
 
 def check_events(ai_settings, screen, stats, ship, bullets):
@@ -174,13 +176,11 @@ def check_high_score(stats, sb):
         sb.prep_high_score()
 
 
-def update_screen(ai_settings, screen, stats, sb, ship, aliens, beams, bullets, bunkers, stars, ufo_group):
+def update_screen(ai_settings, screen, stats, sb, ship, aliens, beams, bullets, bunkers, ufo_group):
     # updates the screen
     if stats.game_active:
         ufo_event_check(ai_settings, screen, ufo_group)
     screen.fill(ai_settings.bg_color)
-    stars.update()
-    stars.draw(screen)
     # Redraw all bullets
     for bullet in bullets.sprites():
         bullet.draw_bullet()
@@ -334,15 +334,6 @@ def ufo_event_check(ai_settings, screen, ufo_group):
         ai_settings.last_ufo, n_ufo = create_random_ufo(ai_settings, screen)
         if n_ufo:
             ufo_group.add(n_ufo)
-
-
-def create_stars(ai_settings, screen):
-    # stars in the background
-    stars = pygame.sprite.Group()
-    for i in range(ai_settings.stars_limit):
-        new_star = Star(ai_settings, screen)
-        stars.add(new_star)
-    return stars
 
 
 def high_score_screen(ai_settings, game_stats, screen):

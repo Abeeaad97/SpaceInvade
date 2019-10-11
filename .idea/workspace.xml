@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="953b6dfe-850e-4ad0-ac0e-fb5e29061412" name="Default Changelist" comment="" />
+    <list default="true" id="953b6dfe-850e-4ad0-ac0e-fb5e29061412" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alien.py" beforeDir="false" afterPath="$PROJECT_DIR$/Alien.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beam.py" beforeDir="false" afterPath="$PROJECT_DIR$/beam.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_stats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/animated_star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ship.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/ship.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/space-invaders-ship-death.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/star/star1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/star/star2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/star/star3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/intro.py" beforeDir="false" afterPath="$PROJECT_DIR$/intro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pastScores.json" beforeDir="false" afterPath="$PROJECT_DIR$/pastScores.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/scoreboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ship.py" beforeDir="false" afterPath="$PROJECT_DIR$/ship.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ufo.py" beforeDir="false" afterPath="$PROJECT_DIR$/ufo.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +35,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1S2vQ07SknibAQCX27SRyulVinL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\abidb\OneDrive\Documents\GitHub\SpaceInvade\images" />
       <recent name="C:\Users\abidb\OneDrive\Documents\GitHub\SpaceInvade" />
     </key>
   </component>
@@ -73,5 +103,19 @@
       <updated>1570774484077</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
